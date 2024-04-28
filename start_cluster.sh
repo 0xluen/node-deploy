@@ -18,7 +18,7 @@ blockInterval=3
 
 # stop geth client
 function exit_previous() {
-    ps -ef  | grep geth | grep mine |awk '{print $2}' | xargs kill
+  #  ps -ef  | grep geth | grep mine |awk '{print $2}' | xargs kill
     sleep 10
 }
 
